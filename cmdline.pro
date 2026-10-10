@@ -1,0 +1,1 @@
+userFeature.className = com.icr.atlas.sv.util.AtlasSVSessionStatusListener
