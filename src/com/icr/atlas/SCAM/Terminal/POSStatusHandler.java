@@ -26,6 +26,7 @@ public class POSStatusHandler implements HttpHandler{
 			String responseText="{}";
 			if (SCSureviewApplication.getInstance()!=null) {
 				POSData posData=((SCSureviewApplication)SCSureviewApplication.getInstance()).getPOSData();
+				
 				responseText=AtlasJSONUtils.sureviewPOSDataToJson(posData);
 				//responseText=((SCSureviewApplication)SCSureviewApplication.getInstance()).getSCData().dumpTable();
 			}
